@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+     char z[100];
+gets(z);
+printf("Hello, world!\n");
+printf("%s\n", z); 
+return 0; 
+}
